@@ -8,12 +8,19 @@ html {
   background-size: cover;
 }
 
+
 h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 900;
 	color: white;
 	text-transform: uppercase;
 	background-color: rgba(12,12,12,0.3);
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 hr{
@@ -45,3 +52,9 @@ hr{
 	height:0.2rem;
 }
 
+.cen
+{
+	display: flex;
+	width: 100%
+	margin: auto;
+}
